@@ -81,11 +81,11 @@ namespace Demo
 		//	Console.WriteLine("Max = {0}", x);
 		//	Console.WriteLine("Min = {0}", y);
 		//}
-		static void Main()
-		{
-			CarOptions options = CarOptions.SunRoof | CarOptions.FogLights;
-			Console.WriteLine(options);
-			Console.WriteLine((int)options);
-		}
+		//static void Main()
+		//{
+		//	CarOptions options = CarOptions.SunRoof | CarOptions.FogLights;
+		//	Console.WriteLine(options);
+		//	Console.WriteLine((int)options);
+		//}
 	}
 }
