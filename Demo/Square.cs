@@ -59,16 +59,16 @@ namespace Demo
 			}
 		}
 
-		static void Main()
-		{
-			var o = new Square();
-			o.AbstractMethod();
-			Console.WriteLine($"x = {o.X}, y = {o.Y}");
+	//	static void Main()
+	//	{
+	//		var o = new Square();
+	//		o.AbstractMethod();
+	//		Console.WriteLine($"x = {o.X}, y = {o.Y}");
 
-			// lambda expression
-			int[] numbers = { 5, 4, 1, 3, 9, 8, 6, 7, 2, 0 };
-			var firstSmallNumbers = numbers.TakeWhile((n, index) => n >= index);
-			Console.WriteLine(string.Join(" ", firstSmallNumbers));
-		}
+	//		// lambda expression
+	//		int[] numbers = { 5, 4, 1, 3, 9, 8, 6, 7, 2, 0 };
+	//		var firstSmallNumbers = numbers.TakeWhile((n, index) => n >= index);
+	//		Console.WriteLine(string.Join(" ", firstSmallNumbers));
+	//	}
 	}
 }
