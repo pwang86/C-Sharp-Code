@@ -17,16 +17,16 @@ namespace Demo
 			}
 		}
 
-		class MainClass : Employee
-		{
-			static void Main()
-			{
-				string n = Console.ReadLine();
-				Employee.counter = Int32.Parse(n);
-				Employee.AddEmployee();
+		//class MainClass : Employee
+		//{
+		//	static void Main()
+		//	{
+		//		string n = Console.ReadLine();
+		//		Employee.counter = Int32.Parse(n);
+		//		Employee.AddEmployee();
 
-				Console.WriteLine($"new number of employees: {Employee.counter}");
-			}
-		}
+		//		Console.WriteLine($"new number of employees: {Employee.counter}");
+		//	}
+		//}
 	}
 }

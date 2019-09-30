@@ -46,6 +46,7 @@
     <Compile Include="ExternTest.cs" />
     <Compile Include="Square.cs" />
     <Compile Include="StaticDemo.cs" />
+    <Compile Include="SwtichDemo.cs" />
     <Compile Include="TestCoords.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
