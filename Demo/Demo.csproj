@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="ExternTest.cs" />
     <Compile Include="GenericDemo.cs" />
+    <Compile Include="GotoDemo.cs" />
     <Compile Include="Square.cs" />
     <Compile Include="StaticDemo.cs" />
     <Compile Include="SwtichDemo.cs" />

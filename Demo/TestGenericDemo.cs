@@ -8,20 +8,20 @@ namespace Demo
 {
 	class TestGenericDemo
 	{
-		static void Main()
-		{
-			GenericDemo<int> list = new GenericDemo<int>();
+		//static void Main()
+		//{
+		//	GenericDemo<int> list = new GenericDemo<int>();
 
-			for (int x = 0; x < 10; x++)
-			{
-				list.AddHead(x);
-			}
+		//	for (int x = 0; x < 10; x++)
+		//	{
+		//		list.AddHead(x);
+		//	}
 
-			foreach (int i in list)
-			{
-				System.Console.Write(i + " ");
-			}
-			System.Console.WriteLine("\nDone");
-		}
+		//	foreach (int i in list)
+		//	{
+		//		System.Console.Write(i + " ");
+		//	}
+		//	System.Console.WriteLine("\nDone");
+		//}
 	}
 }
