@@ -48,6 +48,7 @@
     <Compile Include="GotoDemo.cs" />
     <Compile Include="LockDemo.cs" />
     <Compile Include="OverFlowTest.cs" />
+    <Compile Include="ParamsDemo.cs" />
     <Compile Include="Square.cs" />
     <Compile Include="StaticDemo.cs" />
     <Compile Include="SwtichDemo.cs" />
