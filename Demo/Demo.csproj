@@ -46,6 +46,7 @@
     <Compile Include="ExternTest.cs" />
     <Compile Include="GenericDemo.cs" />
     <Compile Include="GotoDemo.cs" />
+    <Compile Include="LockDemo.cs" />
     <Compile Include="OverFlowTest.cs" />
     <Compile Include="Square.cs" />
     <Compile Include="StaticDemo.cs" />
