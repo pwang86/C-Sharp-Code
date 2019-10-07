@@ -47,6 +47,7 @@
     <Compile Include="GenericDemo.cs" />
     <Compile Include="GotoDemo.cs" />
     <Compile Include="IsDemo.cs" />
+    <Compile Include="JoinDemo.cs" />
     <Compile Include="LockDemo.cs" />
     <Compile Include="OverFlowTest.cs" />
     <Compile Include="ParamsDemo.cs" />
