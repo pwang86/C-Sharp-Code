@@ -46,6 +46,7 @@
     <Compile Include="ExternTest.cs" />
     <Compile Include="GenericDemo.cs" />
     <Compile Include="GotoDemo.cs" />
+    <Compile Include="IsDemo.cs" />
     <Compile Include="LockDemo.cs" />
     <Compile Include="OverFlowTest.cs" />
     <Compile Include="ParamsDemo.cs" />
@@ -59,6 +60,8 @@
     <Compile Include="TestOverride.cs" />
     <Compile Include="ThrowDemo.cs" />
     <Compile Include="VariableScopeWithLambda.cs" />
+    <Compile Include="WhenDemo.cs" />
+    <Compile Include="YieldDemo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
