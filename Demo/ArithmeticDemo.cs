@@ -26,7 +26,16 @@ namespace Demo
 			//// so it begins counting again: 300 - 256 = 44.  
 			///
 
+			// 2. overflow
+			double a = 1.0 / 0.0;
+			Console.WriteLine(a);
+			Console.WriteLine(double.IsInfinity(a));
 
+			Console.WriteLine(double.MaxValue + double.MaxValue);
+
+			double b = 0.0 / 0.0;
+			Console.WriteLine(b);
+			Console.WriteLine(double.IsNaN(b));
 		}
 	}
 }
