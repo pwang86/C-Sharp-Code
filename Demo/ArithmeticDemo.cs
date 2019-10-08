@@ -26,16 +26,33 @@ namespace Demo
 			//// so it begins counting again: 300 - 256 = 44.  
 			///
 
-			// 2. overflow
-			double a = 1.0 / 0.0;
-			Console.WriteLine(a);
-			Console.WriteLine(double.IsInfinity(a));
+			//// 2. overflow
+			//double a = 1.0 / 0.0;
+			//Console.WriteLine(a);
+			//Console.WriteLine(double.IsInfinity(a));
 
-			Console.WriteLine(double.MaxValue + double.MaxValue);
+			//Console.WriteLine(double.MaxValue + double.MaxValue);
 
-			double b = 0.0 / 0.0;
+			//double b = 0.0 / 0.0;
+			//Console.WriteLine(b);
+			//Console.WriteLine(double.IsNaN(b));
+
+			//3. Round-off error
+			Console.WriteLine(.41f % .2f);
+
+			double a = 0.1;
+			double b = 3 * a;
+			double c = 0.3;
+			double f = 3 * a;
+			Console.WriteLine(b == c);
+			Console.WriteLine(b.Equals(c));
+			Console.WriteLine(b == f);
 			Console.WriteLine(b);
-			Console.WriteLine(double.IsNaN(b));
+
+			decimal d = 1 / 3.0m;
+			decimal e = 3 * d;
+			Console.WriteLine(e == 1.0m);
+			Console.WriteLine(e);
 		}
 	}
 }
