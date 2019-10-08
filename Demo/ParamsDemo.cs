@@ -27,7 +27,7 @@ namespace Demo
 		//}
 		//static void Main()
 		//{
-		//	UseParams(1, 2, 3, 4);
+		//	UseParams(1, 2, 3, 4);d
 		//	UseParams2(1, "a", "test");
 
 		//	UseParams2();

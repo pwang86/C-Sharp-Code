@@ -40,6 +40,10 @@ namespace Demo
 			//3. Round-off error
 			Console.WriteLine(.41f % .2f);
 
+			float x = 0.1f;
+			float y = 3 * x;
+			Console.WriteLine(x == y);
+
 			double a = 0.1;
 			double b = 3 * a;
 			double c = 0.3;
