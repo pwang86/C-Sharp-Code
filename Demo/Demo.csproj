@@ -53,6 +53,7 @@
     <Compile Include="IsDemo.cs" />
     <Compile Include="JoinDemo.cs" />
     <Compile Include="LockDemo.cs" />
+    <Compile Include="MemberOperatorDemo.cs" />
     <Compile Include="OverFlowTest.cs" />
     <Compile Include="ParamsDemo.cs" />
     <Compile Include="ShiftDemo.cs" />
@@ -65,6 +66,8 @@
     <Compile Include="TestGenericDemo.cs" />
     <Compile Include="TestOverride.cs" />
     <Compile Include="ThrowDemo.cs" />
+    <Compile Include="TypeOfDemo.cs" />
+    <Compile Include="UserDefinedDemo.cs" />
     <Compile Include="VariableScopeWithLambda.cs" />
     <Compile Include="WhenDemo.cs" />
     <Compile Include="YieldDemo.cs" />
