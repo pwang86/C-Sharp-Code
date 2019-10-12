@@ -29,6 +29,6 @@ namespace Demo
 		//	unchanged();
 		//	Console.WriteLine();
 		//	Console.WriteLine(object.ReferenceEquals(aba, unchanged));
-		}
+		//}
 	}
 }
