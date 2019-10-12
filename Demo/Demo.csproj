@@ -46,6 +46,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ArithmeticDemo.cs" />
+    <Compile Include="DelegateRemovalDemo.cs" />
     <Compile Include="EqualityDemo.cs" />
     <Compile Include="ExternTest.cs" />
     <Compile Include="GenericDemo.cs" />
