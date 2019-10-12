@@ -39,10 +39,9 @@ namespace Demo
 
 		//		Digit digit = (Digit)number;
 		//		Console.WriteLine(digit);
-<<<<<<< HEAD
+
 		//		Console.WriteLine($"{sizeof(int)} is:");
-=======
->>>>>>> 642b7cddbec52ee2f19af36d93c16f1dbb7e111f
+
 		//	}
 		//}
 	}

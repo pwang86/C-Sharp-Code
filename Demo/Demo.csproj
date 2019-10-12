@@ -46,6 +46,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ArithmeticDemo.cs" />
+    <Compile Include="ConditionDemo.cs" />
     <Compile Include="DelegateRemovalDemo.cs" />
     <Compile Include="EqualityDemo.cs" />
     <Compile Include="ExternTest.cs" />
@@ -55,6 +56,7 @@
     <Compile Include="JoinDemo.cs" />
     <Compile Include="LockDemo.cs" />
     <Compile Include="MemberOperatorDemo.cs" />
+    <Compile Include="NullForgivingDemo.cs" />
     <Compile Include="OverFlowTest.cs" />
     <Compile Include="ParamsDemo.cs" />
     <Compile Include="RefDemo.cs" />
