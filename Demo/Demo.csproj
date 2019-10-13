@@ -54,8 +54,10 @@
     <Compile Include="GotoDemo.cs" />
     <Compile Include="IsDemo.cs" />
     <Compile Include="JoinDemo.cs" />
+    <Compile Include="LambdaDemo.cs" />
     <Compile Include="LockDemo.cs" />
     <Compile Include="MemberOperatorDemo.cs" />
+    <Compile Include="NameOfDemo.cs" />
     <Compile Include="NullForgivingDemo.cs" />
     <Compile Include="OverFlowTest.cs" />
     <Compile Include="ParamsDemo.cs" />
