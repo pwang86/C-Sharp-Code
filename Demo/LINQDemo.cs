@@ -8,52 +8,71 @@ namespace Demo
 {
 	class LINQDemo
 	{
-		IEnumerable<string> QueryMethod1(ref int[] ints)
-		{
-			var intsToString = from i in ints
-							   where i > 4
-							   select i.ToString();
-			return intsToString;
-		}
+		//// Demo 1
+		//IEnumerable<string> QueryMethod1(ref int[] ints)
+		//{
+		//	var intsToString = from i in ints
+		//					   where i > 4
+		//					   select i.ToString();
+		//	return intsToString;
+		//}
 
-		void QueryMethod2(ref int[] ints, out IEnumerable<string> returnQ)
-		{
-			var initsToString = from i in ints
-								where i < 4
-								select i.ToString();
-			returnQ = initsToString;
-		}
+		//void QueryMethod2(ref int[] ints, out IEnumerable<string> returnQ)
+		//{
+		//	var initsToString = from i in ints
+		//						where i < 4
+		//						select i.ToString();
+		//	returnQ = initsToString;
+		//}
 
-		static void Main()
-		{
-			LINQDemo app = new LINQDemo();
+		//static void Main()
+		//{
+		//	LINQDemo app = new LINQDemo();
 
-			int[] nums = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+		//	int[] nums = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 };
 
-			var myQuery1 = app.QueryMethod1(ref nums);
-			Console.WriteLine("Results of myQuery1: ");
-			foreach (string s in myQuery1)
-			{
-				Console.WriteLine(s);
-			}
+		//	var myQuery1 = app.QueryMethod1(ref nums);
+		//	Console.WriteLine("Results of myQuery1: ");
+		//	foreach (string s in myQuery1)
+		//	{
+		//		Console.WriteLine(s);
+		//	}
 
-			IEnumerable<string> myQuery2;
-			app.QueryMethod2(ref nums, out myQuery2);
-			Console.WriteLine("\nResults of executing myQuery2: ");
+		//	IEnumerable<string> myQuery2;
+		//	app.QueryMethod2(ref nums, out myQuery2);
+		//	Console.WriteLine("\nResults of executing myQuery2: ");
 
-			foreach (string s in myQuery2)
-			{
-				Console.WriteLine(s);
-			}
+		//	foreach (string s in myQuery2)
+		//	{
+		//		Console.WriteLine(s);
+		//	}
 
-			myQuery1 = from item in myQuery1
-					   orderby item descending
-					   select item;
-			Console.WriteLine("\nResults of executing modified myQuery1: ");
-			foreach (string s in myQuery1)
-			{
-				Console.WriteLine(s);
-			}
+		//	myQuery1 = from item in myQuery1
+		//			   orderby item descending
+		//			   select item;
+		//	Console.WriteLine("\nResults of executing modified myQuery1: ");
+		//	foreach (string s in myQuery1)
+		//	{
+		//		Console.WriteLine(s);
+		//	}
+		//}
+
+		//// Demo2
+		//static List<int> numbers = new List<int>() { 1, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20 };
+		//static void Main()
+		//{
+		//	IEnumerable<int> queryFactorOfFour = from num in numbers
+		//										 where num % 4 == 0
+		//										 select num;
+		//	Console.WriteLine(string.Join(", ",queryFactorOfFour));
+
+		//	List<int> factorofFourList = queryFactorOfFour.ToList();
+		//	Console.WriteLine(factorofFourList[2]);
+		//	factorofFourList[2] = 0;
+		//	Console.WriteLine(factorofFourList[2]);
+
+		from student in students
+		group student by student.LastName[0]
 		}
 	}
 }
