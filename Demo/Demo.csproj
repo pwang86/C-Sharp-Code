@@ -55,6 +55,7 @@
     <Compile Include="IsDemo.cs" />
     <Compile Include="JoinDemo.cs" />
     <Compile Include="LambdaDemo.cs" />
+    <Compile Include="LINQDemo.cs" />
     <Compile Include="LockDemo.cs" />
     <Compile Include="MemberOperatorDemo.cs" />
     <Compile Include="NameOfDemo.cs" />
