@@ -70,9 +70,35 @@ namespace Demo
 		//	Console.WriteLine(factorofFourList[2]);
 		//	factorofFourList[2] = 0;
 		//	Console.WriteLine(factorofFourList[2]);
+		// }
+		//// Demo3
+		//var queryStudent = from student in students
+		//				   group student by student.LastName[0];
 
-		from student in students
-		group student by student.LastName[0]
-		}
+		//// Demo4
+		//static int GetPercentile(int[] scores)
+		//{
+		//	double a = scores.Average();
+		//	return a > 0 ? (int)a / 10 : 0;
+		//}
+		//var queryStudent = from student in students
+		//				   let percentile = GetPercentile(student.student.ExamScores)
+		//				   Group new {student.FirstName,student.LastName } by percentile into percentGroup
+		//				   orderby percentGroup.Key
+		//				   select percentGroup;
+
+		//// Demo5
+		//var queryStudent = from student in students
+		//				   group new { student.FirstName,student.LastName}  by student.ExamScores.Average() > 75 into studentGroup
+		//				   select studentGroup;
+
+		//// Demo6
+		//var queryStudent = from student in students
+		//				   group student by new { FirstLetter = student.LastName[0], Score = student.ExamScore[0] > 85 } into studentGroup
+		//				   orderby studentGroup.key.FirstLetter
+		//				   select studentGroup;
+
+
+		
 	}
 }
