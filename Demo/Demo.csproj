@@ -46,6 +46,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ArithmeticDemo.cs" />
+    <Compile Include="ChunkIt.cs" />
     <Compile Include="ConditionDemo.cs" />
     <Compile Include="DelegateRemovalDemo.cs" />
     <Compile Include="EqualityDemo.cs" />
@@ -75,6 +76,7 @@
     <Compile Include="ThrowDemo.cs" />
     <Compile Include="TypeOfDemo.cs" />
     <Compile Include="UserDefinedDemo.cs" />
+    <Compile Include="UsingChunkIt.cs" />
     <Compile Include="VariableScopeWithLambda.cs" />
     <Compile Include="WhenDemo.cs" />
     <Compile Include="YieldDemo.cs" />
