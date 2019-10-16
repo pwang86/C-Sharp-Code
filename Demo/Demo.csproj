@@ -49,6 +49,7 @@
     <Compile Include="ChunkIt.cs" />
     <Compile Include="ConditionDemo.cs" />
     <Compile Include="DelegateRemovalDemo.cs" />
+    <Compile Include="DynamicPredicates.cs" />
     <Compile Include="EqualityDemo.cs" />
     <Compile Include="ExternTest.cs" />
     <Compile Include="GenericDemo.cs" />
@@ -67,6 +68,7 @@
     <Compile Include="ShiftDemo.cs" />
     <Compile Include="Square.cs" />
     <Compile Include="StaticDemo.cs" />
+    <Compile Include="StudentClass.cs" />
     <Compile Include="SwtichDemo.cs" />
     <Compile Include="TestCoords.cs" />
     <Compile Include="Program.cs" />
