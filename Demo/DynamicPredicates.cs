@@ -8,19 +8,19 @@ namespace Demo
 {
 	class DynamicPredicates:StudentClass
 	{
-		static void Main(string[] args)
-		{
-			string[] ids = { "111", "114", "112" };
-			// QueryByID(ids);
+		//static void Main(string[] args)
+		//{
+		//	string[] ids = { "111", "114", "112" };
+		//	// QueryByID(ids);
 
-			// Read input (1-4)
-			Console.WriteLine("Please input number from 1 to 4: ");
-			string input =Console.ReadLine();
-			QueryByYear(input);
+		//	// Read input (1-4)
+		//	Console.WriteLine("Please input number from 1 to 4: ");
+		//	string input =Console.ReadLine();
+		//	QueryByYear(input);
 
-			Console.WriteLine("Press any key to exit.");
-			Console.ReadKey();
-		}
+		//	Console.WriteLine("Press any key to exit.");
+		//	Console.ReadKey();
+		//}
 
 		static void QueryByID(string[] ids)
 		{

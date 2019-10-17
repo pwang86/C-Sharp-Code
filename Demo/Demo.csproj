@@ -54,6 +54,7 @@
     <Compile Include="ExternTest.cs" />
     <Compile Include="GenericDemo.cs" />
     <Compile Include="GotoDemo.cs" />
+    <Compile Include="InnerJoinDemo.cs" />
     <Compile Include="IsDemo.cs" />
     <Compile Include="JoinDemo.cs" />
     <Compile Include="LambdaDemo.cs" />
