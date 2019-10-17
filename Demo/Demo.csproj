@@ -48,6 +48,7 @@
     <Compile Include="ArithmeticDemo.cs" />
     <Compile Include="ChunkIt.cs" />
     <Compile Include="ConditionDemo.cs" />
+    <Compile Include="CustomJoinDemo.cs" />
     <Compile Include="DelegateRemovalDemo.cs" />
     <Compile Include="DynamicPredicates.cs" />
     <Compile Include="EqualityDemo.cs" />
