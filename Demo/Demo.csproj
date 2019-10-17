@@ -64,6 +64,7 @@
     <Compile Include="MemberOperatorDemo.cs" />
     <Compile Include="NameOfDemo.cs" />
     <Compile Include="NullForgivingDemo.cs" />
+    <Compile Include="OrderJoinDemo.cs" />
     <Compile Include="OverFlowTest.cs" />
     <Compile Include="ParamsDemo.cs" />
     <Compile Include="RefDemo.cs" />
