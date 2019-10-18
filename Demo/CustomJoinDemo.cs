@@ -41,14 +41,14 @@ namespace Demo
    new Product{Name="Ice Cream", CategoryID=007},
    new Product{Name="Mackerel", CategoryID=012},
  };
-		static void Main()
-		{
-			CustomJoinDemo app = new CustomJoinDemo();
-			app.NonEquijoin();
+		//static void Main()
+		//{
+		//	CustomJoinDemo app = new CustomJoinDemo();
+		//	app.NonEquijoin();
 
-			Console.WriteLine("Press any key to exit.");
-			Console.ReadKey();
-		}
+		//	Console.WriteLine("Press any key to exit.");
+		//	Console.ReadKey();
+		//}
 		void NonEquijoin()
 		{
 			var query = from p in products

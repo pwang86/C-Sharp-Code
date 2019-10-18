@@ -52,6 +52,7 @@
     <Compile Include="DelegateRemovalDemo.cs" />
     <Compile Include="DynamicPredicates.cs" />
     <Compile Include="EqualityDemo.cs" />
+    <Compile Include="ExceptionOutsideQueryDemo.cs" />
     <Compile Include="ExternTest.cs" />
     <Compile Include="GenericDemo.cs" />
     <Compile Include="GotoDemo.cs" />
