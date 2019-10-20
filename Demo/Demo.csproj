@@ -70,6 +70,7 @@
     <Compile Include="OverFlowTest.cs" />
     <Compile Include="ParamsDemo.cs" />
     <Compile Include="RefDemo.cs" />
+    <Compile Include="SaltedHashDemo.cs" />
     <Compile Include="ShiftDemo.cs" />
     <Compile Include="Square.cs" />
     <Compile Include="StaticDemo.cs" />
