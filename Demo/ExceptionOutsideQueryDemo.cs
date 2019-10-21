@@ -39,33 +39,33 @@ namespace Demo
 		//{
 		//	throw new InvalidOperationException();
 		//}
-		static void Main()
-		{
-			string[] files = { "fileA.txt", "fileB.txt", "fileC.txt" };
+		//static void Main()
+		//{
+		//	string[] files = { "fileA.txt", "fileB.txt", "fileC.txt" };
 
-			var exceptionDemoQuery = from file in files
-									 let n = SomeMethodThatMightThrow(file)
-									 select n;
-			try
-			{
-				foreach (var item in exceptionDemoQuery)
-				{
-					Console.WriteLine($"Processing {item}");
-				}
-			}
-			catch (InvalidOperationException e)
-			{
-				Console.WriteLine(e.Message);
-			}
-			Console.WriteLine("Press");
-			Console.ReadKey();
-		}
+		//	var exceptionDemoQuery = from file in files
+		//							 let n = SomeMethodThatMightThrow(file)
+		//							 select n;
+		//	try
+		//	{
+		//		foreach (var item in exceptionDemoQuery)
+		//		{
+		//			Console.WriteLine($"Processing {item}");
+		//		}
+		//	}
+		//	catch (InvalidOperationException e)
+		//	{
+		//		Console.WriteLine(e.Message);
+		//	}
+		//	Console.WriteLine("Press");
+		//	Console.ReadKey();
+		//}
 
-		static string SomeMethodThatMightThrow(string s)
-		{
-			if (s[4] == 'C')
-				throw new InvalidOperationException();
-			return @"C:\newFloder\" + s;
-		}
+		//static string SomeMethodThatMightThrow(string s)
+		//{
+		//	if (s[4] == 'C')
+		//		throw new InvalidOperationException();
+		//	return @"C:\newFloder\" + s;
+		//}
 	}
 }
