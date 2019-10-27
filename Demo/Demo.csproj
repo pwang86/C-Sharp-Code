@@ -72,6 +72,7 @@
     <Compile Include="RefDemo.cs" />
     <Compile Include="SaltedHashDemo.cs" />
     <Compile Include="ShiftDemo.cs" />
+    <Compile Include="SingletonDemo.cs" />
     <Compile Include="Square.cs" />
     <Compile Include="StaticDemo.cs" />
     <Compile Include="StudentClass.cs" />
