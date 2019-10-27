@@ -8,20 +8,41 @@ namespace Demo
 {
 	public sealed class SingletonDemo
 	{
-		// Version 1, not thread safe
-		private static SingletonDemo instance = null;
+		//// Version 1, not thread safe
+		//private static SingletonDemo instance = null;
 
-		private SingletonDemo() { }
+		//private SingletonDemo() { }
+
+		//public static SingletonDemo Instance
+		//{
+		//	get
+		//	{
+		//		if (instance == null)
+		//		{
+		//			instance = new SingletonDemo();
+		//		}
+		//		return instance;
+		//	}
+		//}
+
+		// Version 2, simple thread safe
+		private static SingletonDemo instance = null;
+		private static readonly object padlock = new object();
+
+		SingletonDemo() { }
 
 		public static SingletonDemo Instance
 		{
 			get
 			{
-				if (instance == null)
+				lock (padlock)
 				{
-					instance = new SingletonDemo();
+					if (instance == null)
+					{
+						instance = new SingletonDemo();
+					}
+					return instance;
 				}
-				return instance;
 			}
 		}
 	}
