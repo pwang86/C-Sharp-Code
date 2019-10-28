@@ -25,24 +25,36 @@ namespace Demo
 		//	}
 		//}
 
-		// Version 2, simple thread safe
-		private static SingletonDemo instance = null;
-		private static readonly object padlock = new object();
+		//// Version 2, simple thread safe
+		//private static SingletonDemo instance = null;
+		//private static readonly object padlock = new object();
 
-		SingletonDemo() { }
+		//SingletonDemo() { }
 
+		//public static SingletonDemo Instance
+		//{
+		//	get
+		//	{
+		//		lock (padlock)
+		//		{
+		//			if (instance == null)
+		//			{
+		//				instance = new SingletonDemo();
+		//			}
+		//			return instance;
+		//		}
+		//	}
+		//}
+
+		// Version 3, thread safe without using locks
+		private static readonly SingletonDemo instance = new SingletonDemo();
+		static SingletonDemo() { }
+		private SingletonDemo() { }
 		public static SingletonDemo Instance
 		{
 			get
 			{
-				lock (padlock)
-				{
-					if (instance == null)
-					{
-						instance = new SingletonDemo();
-					}
-					return instance;
-				}
+				return instance;
 			}
 		}
 	}
