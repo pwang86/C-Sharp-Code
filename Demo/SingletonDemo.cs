@@ -46,16 +46,32 @@ namespace Demo
 		//	}
 		//}
 
-		// Version 3, thread safe without using locks
-		private static readonly SingletonDemo instance = new SingletonDemo();
-		static SingletonDemo() { }
+		//// Version 3, thread safe without using locks
+		//private static readonly SingletonDemo instance = new SingletonDemo();
+		//static SingletonDemo() { }
+		//private SingletonDemo() { }
+		//public static SingletonDemo Instance
+		//{
+		//	get
+		//	{
+		//		return instance;
+		//	}
+		//}
+
+		// Version 4, lazy instantiation
 		private SingletonDemo() { }
 		public static SingletonDemo Instance
 		{
 			get
 			{
-				return instance;
+				return Nested.instance;
 			}
+		}
+
+		private class Nested
+		{
+			static Nested() { }
+			internal static readonly SingletonDemo instance = new SingletonDemo();
 		}
 	}
 }
