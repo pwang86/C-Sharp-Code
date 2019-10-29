@@ -74,6 +74,7 @@
     <Compile Include="ShiftDemo.cs" />
     <Compile Include="SingletonDemo.cs" />
     <Compile Include="Square.cs" />
+    <Compile Include="StaticConstructorDemo.cs" />
     <Compile Include="StaticDemo.cs" />
     <Compile Include="StudentClass.cs" />
     <Compile Include="SwtichDemo.cs" />

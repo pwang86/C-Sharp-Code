@@ -59,19 +59,19 @@ namespace Demo
 		//}
 
 		// Version 4, lazy instantiation
-		private SingletonDemo() { }
-		public static SingletonDemo Instance
-		{
-			get
-			{
-				return Nested.instance;
-			}
-		}
+		//private SingletonDemo() { }
+		//public static SingletonDemo Instance
+		//{
+		//	get
+		//	{
+		//		return Nested.instance;
+		//	}
+		//}
 
-		private class Nested
-		{
-			static Nested() { }
-			internal static readonly SingletonDemo instance = new SingletonDemo();
-		}
+		//private class Nested
+		//{
+		//	static Nested() { }
+		//	internal static readonly SingletonDemo instance = new SingletonDemo();
+		//}
 	}
 }
