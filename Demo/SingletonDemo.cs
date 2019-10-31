@@ -46,9 +46,12 @@ namespace Demo
 		//	}
 		//}
 
-		//// Version 3, thread safe without using locks
-		//private static readonly SingletonDemo instance = new SingletonDemo();
-		//static SingletonDemo() { }
+		// Version 3, thread safe without using locks
+		//private static readonly SingletonDemo instance;
+		//static SingletonDemo()
+		//{
+		//	instance = new SingletonDemo();
+		//}
 		//private SingletonDemo() { }
 		//public static SingletonDemo Instance
 		//{
