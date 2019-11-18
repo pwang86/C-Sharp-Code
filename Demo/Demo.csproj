@@ -58,6 +58,7 @@
     <Compile Include="GenericDemo.cs" />
     <Compile Include="GotoDemo.cs" />
     <Compile Include="GroupJoinDemo.cs" />
+    <Compile Include="HashTableDemo.cs" />
     <Compile Include="InnerJoinDemo.cs" />
     <Compile Include="IsDemo.cs" />
     <Compile Include="JoinDemo.cs" />
