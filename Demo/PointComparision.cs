@@ -68,7 +68,7 @@ namespace Demo
 
 			public override string ToString()
 			{
-				return String.Format("Point({0,{1},{2}})",x,y,z);
+				return String.Format("Point({0},{1},{2})",x,y,z);
 			}
 		}
 
