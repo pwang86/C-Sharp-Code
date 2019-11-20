@@ -72,6 +72,7 @@
     <Compile Include="OrderJoinDemo.cs" />
     <Compile Include="OverFlowTest.cs" />
     <Compile Include="ParamsDemo.cs" />
+    <Compile Include="PointComparision.cs" />
     <Compile Include="RefDemo.cs" />
     <Compile Include="SaltedHashDemo.cs" />
     <Compile Include="ShiftDemo.cs" />
